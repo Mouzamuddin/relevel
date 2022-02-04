@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sign up</title>
 </head>
 <body>
-    <h1>M.Kart</h1>
+    <h1 class="heading">M.Kart</h1>
+    <form class="form">
     <hr>
-    <h1>Sign up!</h1>
-    <form>
+    <hr>
+    <h1 class="heading">Sign up!</h1>
+    
         <table>
             <tr>
               <td>
                   First Name
               </td>
               <td>
-                  <input type="text" placeholder="First Name" required>
+                  <input type="text" placeholder="First Name" required class="txt_box">
+">
               </td>
             </tr>
             <tr>
@@ -25,7 +29,8 @@
                     last Name
                 </td>
                 <td>
-                    <input type="text" placeholder="last Name" required>
+                    <input type="text" placeholder="last Name" required class="txt_box">
+">
                 </td>
             </tr>
             <tr>
@@ -33,7 +38,8 @@
                     Username
                 </td>
                 <td>
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Username" required class="txt_box">
+">
                 </td>
             </tr>
             <tr>
@@ -41,7 +47,8 @@
                     Password
                 </td>
                 <td>
-                    <input type="password" placeholder="*********" required>
+                    <input type="password" placeholder="*********" required class="txt_box">
+">
                 </td>
             </tr>
             <tr>
@@ -49,7 +56,8 @@
                     DOB
                 </td>
                 <td>
-                    <input type="date" required>
+                    <input type="date" required class="txt_box">
+">
                 </td>
             </tr>
             <tr>
@@ -57,7 +65,8 @@
                     Email-id
                 </td>
                 <td>
-                    <input type="email" placeholder="Email-id" required>
+                    <input type="email" placeholder="Email-id" required class="txt_box">
+">
                 </td>
             </tr>
             <tr>
@@ -65,18 +74,21 @@
                     Gender
                 </td>
                 <td>
-                    <input type="radio" name="Gender" value="Male" required>
+                    <input type="radio" name="Gender" value="Male" required class="txt_box">
+">
                     <label>Male</label>
-                    <input type="radio" name="Gender" value="Female" required>
+                    <input type="radio" name="Gender" value="Female" required class="txt_box">
+">
                     <label >Female</label>
-                    <input type="radio" name="Gender" value="Other" required>
+                    <input type="radio" name="Gender" value="Other" required class="txt_box">
+">
                     <label >Other</label>
                 </td>
              </tr>
           
           </table>
           <br>
-          <input type="submit">
+          <input type="submit" class="btn_submit">
     </form>
     <hr>
     <a href="form_login.html">Login</a>
